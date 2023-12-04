@@ -6,4 +6,4 @@ This is the HTML project for "holbertonschool-web-development". In this project,
 
 Below is the mockup design for the webpage I'm building:
 
-![Mockup Image](mockup.jpg)
+![Mockup Image](mockup.jpg)ls
