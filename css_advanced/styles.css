@@ -1,0 +1,479 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    max-width: 1440%;
+}
+
+.header-container {
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2.19rem;
+    padding-bottom: 6rem;
+}
+
+.text-purple {
+    color: #C271FF;
+    font-family: "Sans Pro";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.6875rem;
+}
+
+.text-white {
+    color: #FFF;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+}
+
+header {
+    width: 69rem;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6.8rem;
+}
+
+.nav-position {
+    display: flex;
+    justify-content: space-between;}
+
+.nav a{
+    color: #FFF;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav a:nth-child(-n+2) {
+    margin-right: 3.25rem;
+}
+
+.header-logo img{
+    width: 167px;
+    height: 29px;
+}
+
+.intro-section {
+    margin: 0 auto;
+}
+
+.intro-section h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 7.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.slogan {
+    display: flex;   
+}
+
+.slogan p {
+    width: 3.2rem;
+    color: #FFF;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2.3rem;
+    font-weight: bold;
+  }
+
+.slogan p:nth-child(-n+2) {
+    margin-right: 4.25rem;
+}
+
+.sub-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 10.125rem;
+    height: 2.75rem;
+    border-radius: 1.375rem;
+    background: #C271FF;
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 10.5rem;
+    box-shadow: 0 0 11px 4px rgba(0, 0, 0, 0.2);
+}
+
+.light  {
+    color: #FFF;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.intro-section h2 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5.44rem;
+}
+
+.pros {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 63rem;
+}
+
+.pros img {
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 50%;
+    margin-bottom: 0.6rem;
+}
+
+.pro3 p {
+    max-width: 150px;
+}
+.pros h3 {
+    width: 9.4rem;
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.6875rem;
+    white-space: nowrap;
+}
+
+.pros p {
+    width: 9.4rem;
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+
+.recommendation-section {
+    background-color: #C271FF;
+    width: 100%;
+    height: 24.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.recommendation-section-content {
+    display: flex;
+    justify-content: space-between;
+    width: 59rem;
+}
+  
+.recommendation-section img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+  
+blockquote {
+    color: #FFF;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.1rem;
+}
+
+.recommendation-text {
+    width: 45rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-bottom p {
+    color: #FFF;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+}
+  
+.text-bottom .italic {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.tutorial-section {
+    padding-top: 5.4rem;
+  }
+  
+  .tutorial-section-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5.4rem;
+  }
+  
+  .tutorial-section h1 {
+    text-align: center;
+    color: #C271FF;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5.4rem;
+  }
+  
+  .tutorial-section .light {
+    color: #071629;
+  }
+  .img-container {
+    position: relative;
+  }
+  
+  .tuto-img {
+    width: 100%;
+    margin-bottom: 0.8rem;
+    
+  }
+   .icon-play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
+  
+  
+  .tuto-1, .tuto-2, .tuto-3, .tuto-4 {
+    width: 16rem;
+  }
+  
+  .tuto-1, .tuto-2, .tuto-3 {
+    margin-right: 1.9rem;
+  }
+  
+  .tutorial-section-content h2 {
+    margin-bottom: 0.47rem;
+    margin-left: 0.8rem;
+    text-align: left;
+    color: #071629;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .tutorial-section-description {
+    margin-left: 0.8rem;
+    margin-bottom: 0.84rem;
+    width: 15rem;
+    color: rgba(7, 22, 41, 0.50);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+
+  .commenter {
+    width: 16rem;
+    margin-left: 0.8rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .commenter img {
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-right: 0.8rem;
+  }
+  .commenter h3 {
+    text-align: left;
+  }
+  
+  .rating {
+    margin-left: 0.8rem;
+    margin-right: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .rating p {
+    text-align: left;
+    line-height: 1rem;
+  }
+  
+  .membership-section {
+    background-color: #071629;
+    padding-top: 4.4rem;
+    padding-bottom: 3.2rem;
+  }
+  
+  .membership-section h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 3.6rem;
+  }
+  
+  .membership-section-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5.3rem;
+  }
+  
+  .membership-section-content div {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .membership-section-content img {
+    width: 2.72913rem;
+    height: 2.20956rem;
+    flex-shrink: 0;
+    margin-bottom: 1.66rem;
+    
+  }
+  
+  .membership-section-content h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+    margin-bottom: 0.8rem; 
+  }
+  
+  .membership-section-content p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin: 0 1.41rem;
+  }
+  
+  .membership-section .button {
+    box-shadow: none;
+    margin-bottom: 0;
+  }
+
+  .faq-section {
+    padding-top: 4.2rem;
+    padding-bottom: 0.8rem;
+  }
+  
+  .faq-section h1 {
+    text-align: center;
+    margin-bottom: 4.6rem;
+  }
+  
+  .faq-section h1 span{
+    color: #071629;
+    font-size: 3.75rem;
+  }
+  
+  .faq-section-content {
+    width: 57.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .faq-section-content h2 {
+    color: #071629;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1.9rem;
+  }
+  
+  .faq-section-content p {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.6rem;
+  }
+  .row div {
+    width: 22rem;
+  }
+  
+  .row div:first-child {
+    margin-right: 13.7rem;
+  }
+  
+  footer {
+    background-color: #071629;
+    padding-top: 6.3rem;
+    padding-bottom: 2.4rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10.3rem;
+    margin-right: 15rem;
+    margin-bottom: 4.7rem;
+  }
+  
+  .footer-content img {
+    width: 10.56rem;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3;
+  }
